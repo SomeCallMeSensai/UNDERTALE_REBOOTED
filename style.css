@@ -1,0 +1,212 @@
+img {
+    image-rendering: pixelated;
+}
+
+@font-face {
+    font-family: 'Bit';
+    src: url('fonts/8bitoperator-JVE.woff');
+}
+
+
+
+body {
+	
+    text-rendering: pixelated;
+    background-size: cover;
+    color: white;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    font-size: 32px;
+	
+	text-shadow: 3px 3px #ee04b9;
+	
+}
+
+.Text_Up{
+
+	font-family: 'Bit';
+	font-size: 16px;
+	color: #060b4e;
+    position: absolute;
+    top: 340px;
+    left: 0px;
+    right: 0px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: -1;
+	
+}
+.AboutText{
+
+	font-family: 'Bit';
+	font-size: 32px;
+	color: white;
+    position: absolute;
+    top: 900px;
+    left: 0px;
+    right: 0px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: -1;
+	
+	
+}
+
+.Text{
+
+	font-family: 'Bit';
+	font-size: 48px;
+	color: white;
+    position: absolute;
+    top: 450px;
+    left: 0px;
+    right: 0px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: -1;
+	
+	animation: bottommove ease 4s;
+	animation-iteration-count: infinite
+	
+}
+
+.Mountain_BG {
+    display: block;
+    position: absolute;
+    top: 500px;
+    left: 0px; 
+    right: 50px;
+    width: 2000px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: -1;
+}
+
+@keyframes topmove {
+  0% {
+	  top: 100px;
+  }
+	
+  100% {
+	  top: 150px;
+  }
+}
+
+@keyframes bottommove {
+  0% {
+	  top: 460px;
+  }
+	
+  50% {
+	  top: 450px;
+  }
+  
+  100% {
+	  top: 460px;
+  }
+}
+
+
+@keyframes fadeOUT {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+.Title {
+	
+    display: block;
+    position: absolute;
+    left: 0px; 
+	top: 150px;
+    right: 0px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: -1;
+	animation: topmove ease 1s;
+	
+}
+
+
+
+.fade-out {
+	z-index: 5;
+    animation: fadeOUT ease 1s;
+    opacity:0;
+}
+
+
+
+.navbar {
+    overflow: hidden;
+    max-height: 50px;
+    min-height: 50px;
+    position: fixed;
+    background-color: black;
+    border-bottom-width: 3px;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    justify-content: space-around;
+    align-content: center;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar div{
+	
+    margin-top: 4px;
+    width: auto;
+    height: 75px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.navbar div a {
+	
+    color: #f2f2f2;
+    text-align: center;
+    vertical-align: middle;
+    padding: 14px 24px;
+    text-decoration: none;
+    font-size: 36px;
+    letter-spacing: 1px;
+    text-shadow: 0px 2px black;
+}
+.navbar div a:hover {
+    color: #ffff00;
+    padding: 14px 24px;
+    text-shadow: 0px 2px black;
+    font-size: 28;
+}
+
+
+
+a:link {
+  color: #ffff00;
+  text-decoration: none;
+}
+a:visited {
+  color: #ffff00;
+  text-decoration: none;
+}
+a:hover {
+  color: #ff9d00;
+  text-decoration: none;
+}
+a:active {
+  color: #ffff00;
+  text-decoration: none;
+}
