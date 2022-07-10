@@ -140,7 +140,22 @@ body {
     width: 700px;
     margin-left: auto;
     margin-right: auto;
-    z-index: 3;
+    z-index: -1;
+}
+
+.about_text{
+	
+	font-family: 'Bit';
+	font-size: 32px;
+	color: white;
+	display: block;
+    position: absolute;
+	top: 400px;
+	right: 600px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: -1;
 }
 
 .icon_1_index{
@@ -299,6 +314,20 @@ body {
 	
 }
 
+.Title_About {
+	
+    display: block;
+    position: absolute;
+    left: 0px; 
+	top: 200px;
+    right: 0px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: -1;
+	
+}
+
 
 
 .fade-out {
@@ -309,40 +338,31 @@ body {
 
 
 
-.navbar {
-    overflow: hidden;
-    max-height: 50px;
-    min-height: 50px;
-    position: fixed;
-    background-color: black;
-    border-bottom-width: 3px;
-    border-bottom-color: white;
-    border-bottom-style: solid;
-    justify-content: space-around;
-    align-content: center;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    width: 100%;
-    z-index: 1;
-}
 
 
 
-.navbar div{
+
+.div_a {
 	
 	font-family: 'Bit';
-    color: #ffffff;
+    font-size: 28;
+	
+    color: #f2f2f2;
     text-align: center;
     vertical-align: middle;
-    padding: 500px 24px;
+    padding: 24px 24px;
     text-decoration: none;
-    font-size: 48px;
-    letter-spacing: 50px;
-    text-shadow: 0px 2px black;
+    font-size: 36px;
+    letter-spacing: 1px;
+    text-shadow: 3px 3px #ee04b9;
+	
+  }
+  
+.sound{
+	 
+
 }
+  
 
 
 
